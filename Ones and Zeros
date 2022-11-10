@@ -1,5 +1,5 @@
-Given an array of ones and zeroes, convert the equivalent binary value to an integer.
-Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1
+'''Given an array of ones and zeroes, convert the equivalent binary value to an integer.
+Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1'''
 def binary_array_to_number(arr):
     number = 0
     for i in range(len(arr)): #Suppose len of arr is 9, then, for a number in range 0 to 9
